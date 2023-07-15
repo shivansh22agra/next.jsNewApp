@@ -1,0 +1,11 @@
+.socialImages {
+  display: flex;
+  gap: 20px;
+}
+.container {
+  height: 50px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

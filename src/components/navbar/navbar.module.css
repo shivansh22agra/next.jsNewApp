@@ -1,0 +1,11 @@
+.container {
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.links {
+  display: flex;
+
+  gap: 20px;
+}
