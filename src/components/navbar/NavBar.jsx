@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import styles from "./navbar.module.css";
+import Toggle from "../toggle/toggle";
 const links = [
   {
     id: 1,
@@ -39,6 +40,7 @@ export const NavBar = () => {
       <Link href="/">Nextjs Website</Link>
 
       <div className={styles.links}>
+        <Toggle/>
         {links.map((link) => (
           <Link key={link.id} className="" href={link.url}>
             {link.title}
